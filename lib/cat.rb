@@ -4,8 +4,8 @@ class Cat
     @mood = mood 
   end
   
-  def mood 
-    @mood 
+  def self.mood=(mood) 
+    @mood = mood
   end
   
   def name
