@@ -13,6 +13,10 @@ class Owner
     @name 
   end
   
+  def pets 
+    @pets 
+  end
+  
   def self.count
     @@all.length 
   end
