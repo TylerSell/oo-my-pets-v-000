@@ -4,7 +4,7 @@ class Owner
   
   def initialize(owner, species = "human")
     @owner = owner
-    @species.freeze = species
+    @species = species.freeze
     @pets = {:fishes => [], :dogs => [], :cats => []}
     @@all << self 
   end
