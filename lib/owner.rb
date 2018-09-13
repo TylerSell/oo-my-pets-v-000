@@ -76,6 +76,7 @@ class Owner
         pet.mood = "nervous"
       end
     end
+    @
   end
   
   def list_pets 
