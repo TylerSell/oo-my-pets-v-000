@@ -8,7 +8,7 @@ class Owner
   end
   
   def count
-    @@all.each
+    @@all.length 
   end
   
   def self.reset_all
