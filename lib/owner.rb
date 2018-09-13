@@ -5,6 +5,7 @@ class Owner
   def initialize(owner, species = "human")
     @owner = owner
     @species = species
+    @pets = {:fishes => [], :dogs => [], :cats => []}
     @@all << self 
   end
   
@@ -27,4 +28,26 @@ class Owner
   def species 
     @species 
   end
+  
+  def buy_fish
+    
+  end
+  
+  def buy_cat 
+    
+  end
+  
+  def buy_dog 
+    
+  end
+  
+  def walk_dog 
+    
+  end
+  
+  def play_with_cats 
+    
+  end
+  
+  def 
 end
