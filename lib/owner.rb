@@ -7,11 +7,15 @@ class Owner
     @@all << owner
   end
   
-  def count
+  def self.count
     @@all.length 
   end
   
   def self.reset_all
     @@all.clear
+  end
+  
+  def self.all 
+    @@all 
   end
 end
