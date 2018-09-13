@@ -4,5 +4,7 @@ class Cat
     @mood = mood 
   end
   
-  def 
+  def mood 
+    @mood 
+  end
 end
