@@ -9,6 +9,10 @@ class Owner
     @@all << self 
   end
   
+  def name 
+    @name 
+  end
+  
   def self.count
     @@all.length 
   end
