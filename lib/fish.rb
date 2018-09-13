@@ -1,5 +1,6 @@
 class Fish
   attr_writer :mood
+  @@all = []
   
   def initialize(name, mood = "nervous")
     @name = name.freeze 
