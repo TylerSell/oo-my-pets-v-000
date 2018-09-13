@@ -2,8 +2,9 @@ class Owner
   attr_accessor
   @@all = []
   
-  def initialize(owner)
+  def initialize(owner, species = "human")
     @owner = owner
+    @species = species
     @@all << self 
   end
   
@@ -17,5 +18,9 @@ class Owner
   
   def self.all 
     @@all 
+  end
+  
+  def self.say_species 
+    "I am a #{@species}."
   end
 end
