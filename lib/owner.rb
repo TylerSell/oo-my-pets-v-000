@@ -1,5 +1,5 @@
 class Owner
-  attr_writer :name 
+  attr_writer :name, :pets 
   @@all = []
   
   def initialize(owner, species = "human")
