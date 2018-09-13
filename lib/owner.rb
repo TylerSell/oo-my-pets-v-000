@@ -49,5 +49,15 @@ class Owner
     
   end
   
-  def 
+  def feed_fish
+    
+  end
+  
+  def sell_pets 
+    
+  end
+  
+  def list_pets 
+    @pets 
+  end
 end
